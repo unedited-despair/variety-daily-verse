@@ -1,0 +1,12 @@
+[project]
+name = "variety-daily-verse"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "black>=26.3.1",
+    "requests>=2.34.2",
+    "variety",
+]
+
+[tool.uv.sources]
+variety = { git = "https://github.com/varietywalls/variety" }
